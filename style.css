@@ -1,0 +1,22 @@
+#counterlabel{display: block;
+text-align: center;
+font-size: 10em;
+font-family: helvetica;}
+
+#buttoncontainer{
+    text-align: center; /*these are the blue buttons*/
+}
+
+.button{padding: 10px 20px ;
+font-size: 1.5em;
+color: white;
+background-color: blue; 
+border-radius: 5px; /*this makes buttons rounder*/ 
+cursor: pointer; /* this is to allow cursor function with pointer*/
+transition: background-color 0.25s;} /* this is for the display as you slide cursor over so the back color shows up */
+
+/* we will add a pseudo class which is the hover for the buttons*/
+
+.button:hover{
+    background-color: aqua;
+}
